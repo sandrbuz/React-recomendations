@@ -1,0 +1,19 @@
+.recommendationItem{
+    /* border: 1px solid rgb(255, 255, 255); */
+    background-color: #1A1B1B;
+    height: 140px;
+    border-radius: 8px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+.number{
+    font-size: 18px;
+    font-weight: 700;
+}
+.description{
+    font-size: 14px;
+    color: #8C8D8D;
+}
