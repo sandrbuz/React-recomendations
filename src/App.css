@@ -10,11 +10,38 @@
   color: white;
   max-width: 662px;
   width: 100%;
-  border: 1px solid white;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 10px 25px 25px 25px;
 }
 h1{
   font-size: 24px;
   font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.recommendations{
+  display: grid;
+  grid-template-areas:
+    "a b"
+    "c d"
+    "e e"
+  ;
+  grid-gap: 8px;
+}
+.recommendations > div:last-child p:last-child {
+  max-width: 65%;
+}
+@media (max-width: 480px) {
+  .recommendations{
+    grid-template-areas:
+      "a"
+      "b"
+      "c"
+      "d"
+      "e"
+    ;
+  }
+  .recommendations > div:last-child p:last-child {
+    max-width: 100%;
+  }
 }
